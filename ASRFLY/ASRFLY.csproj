@@ -46,7 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\Message_Collection.cs" />
     <Compile Include="Code\PageManager.cs" />
+    <Compile Include="GUI\GUI_CATEGORIES\Add_CategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_CATEGORIES\Add_CategoryForm.Designer.cs">
+      <DependentUpon>Add_CategoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI_CATEGORIES\CategoryUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_CATEGORIES\CategoryUserControl1.Designer.cs">
+      <DependentUpon>CategoryUserControl1.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\GUI_HOME\HomeUserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -61,6 +74,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\GUI_CATEGORIES\Add_CategoryForm.resx">
+      <DependentUpon>Add_CategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\GUI_CATEGORIES\CategoryUserControl1.resx">
+      <DependentUpon>CategoryUserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\GUI_HOME\HomeUserControl1.resx">
       <DependentUpon>HomeUserControl1.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +201,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Categorize_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add New_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Property.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magnifying Glass Tilted Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
