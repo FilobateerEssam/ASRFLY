@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ASRFLY.Code;
+using ASRFLY.GUI.GUI_HOME;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,12 @@ namespace ASRFLY.GUI.GUI_CATEGORIES
 {
     public partial class CategoryUserControl1 : UserControl
     {
+
+        // Variables
+
+        private static CategoryUserControl1 _CategoryUserControl1;
+
+
         public CategoryUserControl1()
         {
             InitializeComponent();
@@ -21,12 +29,19 @@ namespace ASRFLY.GUI.GUI_CATEGORIES
 
         private void btn_Add_Click(object sender, EventArgs e)
         {
+            Add_CategoryForm add_CategoryForm = new Add_CategoryForm();
 
+            // Diff between Show & ShowDialog 
+            // Show remove Obj
+            // ShowDialog make Dispose
+
+
+            add_CategoryForm.Show();
         }
 
         private void btn_Edit_Click(object sender, EventArgs e)
         {
-
+            Message_Collection.ShowEmptyDataMessage();
         }
 
         private void btn_Delete_Click(object sender, EventArgs e)
@@ -57,5 +72,15 @@ namespace ASRFLY.GUI.GUI_CATEGORIES
 
         #endregion
 
+
+        #region Methods 
+
+        // to Solve Singilton Problem 
+        public static CategoryUserControl1 Instance()
+        {
+            return _CategoryUserControl1 ?? (new CategoryUserControl1());
+        }
+
+        #endregion
     }
 }

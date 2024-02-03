@@ -47,7 +47,7 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.AllowDrop = true;
+            this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
             this.flowLayoutPanel1.Controls.Add(this.btn_Add);
             this.flowLayoutPanel1.Controls.Add(this.btn_Edit);

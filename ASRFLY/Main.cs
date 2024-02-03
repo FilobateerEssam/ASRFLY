@@ -31,8 +31,15 @@ namespace ASRFLY
         {
             pageManager.LoadPage(GUI.GUI_HOME.HomeUserControl1.Instance());
         }
-        
 
-        #endregion 
+
+        #endregion
+
+        private void btn_Categories_Click(object sender, EventArgs e)
+        {
+            // Load Category Page
+
+            pageManager.LoadPage(GUI.GUI_CATEGORIES.CategoryUserControl1.Instance());
+        }
     }
 }

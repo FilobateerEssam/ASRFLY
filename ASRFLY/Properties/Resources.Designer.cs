@@ -63,6 +63,16 @@ namespace ASRFLY.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap About {
+            get {
+                object obj = ResourceManager.GetObject("About", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap About_1 {
             get {
                 object obj = ResourceManager.GetObject("About_1", resourceCulture);
@@ -75,7 +85,7 @@ namespace ASRFLY.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Add_New_1 {
             get {
-                object obj = ResourceManager.GetObject("Add_New_1", resourceCulture);
+                object obj = ResourceManager.GetObject("Add New_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +103,49 @@ namespace ASRFLY.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Categorize_2 {
+            get {
+                object obj = ResourceManager.GetObject("Categorize_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Categorize_3 {
             get {
                 object obj = ResourceManager.GetObject("Categorize_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Circled_Menu {
+            get {
+                object obj = ResourceManager.GetObject("Circled Menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Crowd {
+            get {
+                object obj = ResourceManager.GetObject("Crowd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Crowd_1 {
+            get {
+                object obj = ResourceManager.GetObject("Crowd_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -115,7 +165,7 @@ namespace ASRFLY.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Dashboard_Layout {
             get {
-                object obj = ResourceManager.GetObject("Dashboard_Layout", resourceCulture);
+                object obj = ResourceManager.GetObject("Dashboard Layout", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -135,13 +185,13 @@ namespace ASRFLY.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Edit_Property {
             get {
-                object obj = ResourceManager.GetObject("Edit_Property", resourceCulture);
+                object obj = ResourceManager.GetObject("Edit Property", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to عرض بيانات.
+        ///   Looks up a localized string similar to عرض البيانات.
         /// </summary>
         internal static string EmptyMessageCaption {
             get {
@@ -150,7 +200,7 @@ namespace ASRFLY.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to لا يوجد بيانات .
+        ///   Looks up a localized string similar to لا يوجد بيانات.
         /// </summary>
         internal static string EmptyMessageText {
             get {
@@ -191,6 +241,16 @@ namespace ASRFLY.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logout {
+            get {
+                object obj = ResourceManager.GetObject("Logout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logout_1 {
             get {
                 object obj = ResourceManager.GetObject("Logout_1", resourceCulture);
@@ -203,7 +263,17 @@ namespace ASRFLY.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Magnifying_Glass_Tilted_Right {
             get {
-                object obj = ResourceManager.GetObject("Magnifying_Glass_Tilted_Right", resourceCulture);
+                object obj = ResourceManager.GetObject("Magnifying Glass Tilted Right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Online_Support {
+            get {
+                object obj = ResourceManager.GetObject("Online Support", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,7 +283,17 @@ namespace ASRFLY.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Online_Support_2 {
             get {
-                object obj = ResourceManager.GetObject("Online_Support_2", resourceCulture);
+                object obj = ResourceManager.GetObject("Online Support_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Output {
+            get {
+                object obj = ResourceManager.GetObject("Output", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,7 +343,7 @@ namespace ASRFLY.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2023_03_04_010144_transformed {
             get {
-                object obj = ResourceManager.GetObject("Screenshot_2023_03_04_010144_transformed", resourceCulture);
+                object obj = ResourceManager.GetObject("Screenshot_2023-03-04_010144-transformed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -274,6 +354,66 @@ namespace ASRFLY.Properties {
         internal static System.Drawing.Bitmap Settings {
             get {
                 object obj = ResourceManager.GetObject("Settings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Squared_Menu {
+            get {
+                object obj = ResourceManager.GetObject("Squared Menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Squared_Menu_1 {
+            get {
+                object obj = ResourceManager.GetObject("Squared Menu_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Squared_Menu_2 {
+            get {
+                object obj = ResourceManager.GetObject("Squared Menu_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Squared_Menu_3 {
+            get {
+                object obj = ResourceManager.GetObject("Squared Menu_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Squared_Menu_4 {
+            get {
+                object obj = ResourceManager.GetObject("Squared Menu_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Squared_Menu_5 {
+            get {
+                object obj = ResourceManager.GetObject("Squared Menu_5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -301,9 +441,19 @@ namespace ASRFLY.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Xbox_Menu {
+            get {
+                object obj = ResourceManager.GetObject("Xbox Menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Xbox_Menu_1 {
             get {
-                object obj = ResourceManager.GetObject("Xbox_Menu_1", resourceCulture);
+                object obj = ResourceManager.GetObject("Xbox Menu_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

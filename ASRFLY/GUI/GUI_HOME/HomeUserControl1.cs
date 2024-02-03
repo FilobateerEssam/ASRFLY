@@ -22,6 +22,7 @@ namespace ASRFLY.GUI.GUI_HOME
         // to Solve Singilton Problem 
         public static HomeUserControl1 Instance()
         {
+            // if Null 
             return _HomeUserControl1 ?? (new HomeUserControl1());
         }
     }

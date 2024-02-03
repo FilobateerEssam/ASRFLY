@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRFLY", "ASRFLY\ASRFLY.csproj", "{9D88F336-AFB8-4EA5-8E81-BEDDCFDA3DE8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASRFLY.Core", "ASRFLY.Core\ASRFLY.Core.csproj", "{A3DDD5BC-212A-421B-A7AF-5F94FCE6F146}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASRFLY.Data", "ASRFLY.Data\ASRFLY.Data.csproj", "{9289CD4E-8797-4195-8EC3-41137C259CB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRFLY.TEST", "ASRFLY.TEST\ASRFLY.TEST.csproj", "{CA58D731-53E3-4DD1-BCCA-BD9590B48C99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASRFLY.TEST", "ASRFLY.TEST\ASRFLY.TEST.csproj", "{CA58D731-53E3-4DD1-BCCA-BD9590B48C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRFLY", "ASRFLY\ASRFLY.csproj", "{EEBB49B4-88A6-49C8-AA4D-2672275FBDD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9D88F336-AFB8-4EA5-8E81-BEDDCFDA3DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D88F336-AFB8-4EA5-8E81-BEDDCFDA3DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D88F336-AFB8-4EA5-8E81-BEDDCFDA3DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D88F336-AFB8-4EA5-8E81-BEDDCFDA3DE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A3DDD5BC-212A-421B-A7AF-5F94FCE6F146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A3DDD5BC-212A-421B-A7AF-5F94FCE6F146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3DDD5BC-212A-421B-A7AF-5F94FCE6F146}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{CA58D731-53E3-4DD1-BCCA-BD9590B48C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA58D731-53E3-4DD1-BCCA-BD9590B48C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA58D731-53E3-4DD1-BCCA-BD9590B48C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBB49B4-88A6-49C8-AA4D-2672275FBDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBB49B4-88A6-49C8-AA4D-2672275FBDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBB49B4-88A6-49C8-AA4D-2672275FBDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBB49B4-88A6-49C8-AA4D-2672275FBDD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

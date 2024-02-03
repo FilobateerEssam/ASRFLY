@@ -118,35 +118,50 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="About_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\About_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Add_New_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Add New_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Add New_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Categorize_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Categorize_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Categorize_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Categorize_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Categorize_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Categorize_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Circled Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Circled Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crowd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crowd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crowd_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crowd_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Crowd_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Crowd_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dashboard_Layout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dashboard Layout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dashboard Layout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Edit_Property" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Edit Property" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Edit Property.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EmptyMessageCaption" xml:space="preserve">
-    <value>عرض بيانات</value>
+    <value>عرض البيانات</value>
   </data>
   <data name="EmptyMessageText" xml:space="preserve">
-    <value>لا يوجد بيانات </value>
+    <value>لا يوجد بيانات</value>
   </data>
   <data name="Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,14 +172,23 @@
   <data name="Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logout_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logout_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Magnifying_Glass_Tilted_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Magnifying Glass Tilted Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Magnifying Glass Tilted Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Online_Support_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Online Support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Online Support.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Online Support_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Online Support_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Output" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Output.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Output_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Output_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,11 +202,29 @@
   <data name="Save_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Save_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot_2023_03_04_010144_transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Screenshot_2023-03-04_010144-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_2023-03-04_010144-transformed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squared Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squared Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squared Menu_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squared Menu_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squared Menu_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squared Menu_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squared Menu_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squared Menu_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squared Menu_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squared Menu_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squared Menu_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Squared Menu_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Supplier_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Supplier_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,7 +232,10 @@
   <data name="Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Users.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Xbox_Menu_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Xbox Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xbox Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xbox Menu_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Xbox Menu_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

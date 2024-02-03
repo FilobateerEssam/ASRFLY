@@ -164,7 +164,7 @@
             this.txt_bx_Cat_Name.Name = "txt_bx_Cat_Name";
             this.txt_bx_Cat_Name.Size = new System.Drawing.Size(508, 45);
             this.txt_bx_Cat_Name.TabIndex = 1;
-            this.txt_bx_Cat_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txt_bx_Cat_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 

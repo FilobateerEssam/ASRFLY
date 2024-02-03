@@ -86,6 +86,7 @@
             this.btn_Categories.TabIndex = 1;
             this.btn_Categories.Text = "الاصناف";
             this.btn_Categories.UseVisualStyleBackColor = true;
+            this.btn_Categories.Click += new System.EventHandler(this.btn_Categories_Click);
             // 
             // btn_Customers
             // 

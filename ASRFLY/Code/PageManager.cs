@@ -7,8 +7,10 @@ using System.Windows.Forms;
 
 namespace ASRFLY.Code
 {
+
     public class PageManager
     {
+
         private readonly Main main;
 
         //                 Main Form Name
