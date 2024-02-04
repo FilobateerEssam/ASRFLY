@@ -14,6 +14,7 @@ namespace ASRFLY.Data.SqlServer
 
         private DBContext db;
         private Categories table;
+        IDataHelper<Categories> dataHelper;
 
         // Constractors
 
@@ -21,6 +22,7 @@ namespace ASRFLY.Data.SqlServer
         {
 
             db = new DBContext();
+
         }
 
 
@@ -338,7 +340,7 @@ namespace ASRFLY.Data.SqlServer
                     || x.Name.Contains(SearchItem)
                     || x.Details.Contains(SearchItem)
                     || x.Balance.ToString().Contains(SearchItem)
-                    || x.AddedDate.ToString().Contains(SearchItem)
+                    || x.AddedDate.Date.ToString().Contains(SearchItem)
                     )
                         .ToList();
 
@@ -371,7 +373,7 @@ namespace ASRFLY.Data.SqlServer
                         || x.Name.Contains(SearchItem)
                         || x.Details.Contains(SearchItem)
                         || x.Balance.ToString().Contains(SearchItem)
-                        || x.AddedDate.ToString().Contains(SearchItem)
+                        || x.AddedDate.Date.ToString().Contains(SearchItem)
                         )
                             .ToList());
 
